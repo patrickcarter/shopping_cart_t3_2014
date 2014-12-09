@@ -1,6 +1,6 @@
 source 'https://rubygems.org'
 
-group :devlopment, :test do
+group :development, :test do
   gem 'rspec-rails'
   gem 'guard-rspec'
   gem 'guard-bundler'
@@ -8,6 +8,7 @@ group :devlopment, :test do
   gem 'capybara'
   gem 'faker'
   gem 'launchy'
+  gem 'shoulda-matchers'
 end
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
